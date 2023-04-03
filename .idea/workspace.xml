@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb93e8-5b92-4238-8e90-db59fef5a513" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="05cb93e8-5b92-4238-8e90-db59fef5a513" name="Changes" comment="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Produtos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProdutosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ValidacaoDeProdutosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProdutosServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidacaoDeProdutosServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +43,11 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProdutosServiceTest.testAddProduct">
+  <component name="RunManager" selected="JUnit.ProdutosServiceTest.testGetProdutosPorNome">
     <configuration name="All in lojaNETCaterine_Junit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lojaNETCaterine_Junit5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdutosServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lojaNETCaterine_Junit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProdutosServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,6 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProdutosServiceTest.testGetProdutosPorNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lojaNETCaterine_Junit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProdutosServiceTest" />
+      <option name="METHOD_NAME" value="testGetProdutosPorNome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidacaoDeProdutosServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lojaNETCaterine_Junit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProdutosServiceTest.testGetProdutosPorNome" />
         <item itemvalue="JUnit.ProdutosServiceTest.testAddProduct" />
         <item itemvalue="JUnit.All in lojaNETCaterine_Junit5" />
         <item itemvalue="JUnit.ValidacaoDeProdutosServiceTest" />
         <item itemvalue="JUnit.ProdutosServiceTest.testAddProdutos" />
-        <item itemvalue="JUnit.ProdutosServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -107,8 +109,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680548212731</updated>
-      <workItem from="1680548215618" duration="11838000" />
+      <workItem from="1680548215618" duration="13459000" />
     </task>
+    <task id="LOCAL-00001" summary="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA">
+      <created>1680560918659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680560918659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +135,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lojaNETCaterine_Junit5$ProdutosServiceTest_testAddProduct.ic" NAME="ProdutosServiceTest.testAddProduct Coverage Results" MODIFIED="1680560720317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/lojaNETCaterine_Junit5$ProdutosServiceTest.ic" NAME="ProdutosServiceTest Coverage Results" MODIFIED="1680558100271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
