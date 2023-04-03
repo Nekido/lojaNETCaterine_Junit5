@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cb93e8-5b92-4238-8e90-db59fef5a513" name="Changes" comment="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Produtos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProdutosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ValidacaoDeProdutosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProdutosServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ValidacaoDeProdutosServiceTest.java" afterDir="false" />
+    <list default="true" id="05cb93e8-5b92-4238-8e90-db59fef5a513" name="Changes" comment="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA&#10;Inserção de testes no metodo getProdutosPorNome e getProdutosPorId">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProdutosServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProdutosServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680548212731</updated>
-      <workItem from="1680548215618" duration="13459000" />
+      <workItem from="1680548215618" duration="14020000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA">
       <created>1680560918659</created>
@@ -118,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680560918659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA&#10;Inserção de testes no metodo getProdutosPorNome e getProdutosPorId">
+      <created>1680562377642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680562377642</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA&#10;Inserção de testes no metodo getProdutosPorNome e getProdutosPorId">
+      <created>1680562400462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680562400462</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA" />
+    <MESSAGE value="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA&#10;Inserção de testes no metodo getProdutosPorNome e getProdutosPorId" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto com Junit5, Mock, Coverage. Modulo final Curso DEVA&#10;Inserção de testes no metodo getProdutosPorNome e getProdutosPorId" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lojaNETCaterine_Junit5$ProdutosServiceTest_testAddProduct.ic" NAME="ProdutosServiceTest.testAddProduct Coverage Results" MODIFIED="1680560720317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

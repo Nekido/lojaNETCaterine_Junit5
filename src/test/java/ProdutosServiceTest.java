@@ -33,8 +33,8 @@ public class ProdutosServiceTest {
     @Test
     public void testGetProdutosPorId() {
         Produtos produto = service.getProdutosPorId(2L);
-        assertEquals("Produto 2", produto.getNome());
-        assertEquals(20.0, produto.getPreco());
+        assertEquals("Iphone", produto.getNome());
+        assertEquals(14.000, produto.getPreco());
     }
 
     @Test
